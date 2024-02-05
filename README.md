@@ -34,4 +34,4 @@ docker compose -f docker-compose.prod.yml build
 # Docker Repo Name
 [luispsalvador/teslo-shop-backend:latest](https://hub.docker.com/repository/docker/luispsalvador/teslo-shop-backend/general)
 
-docker buildx build --platform linux/amd64,linux/arm64 -t luispsalvador/teslo-shop-backend:2.0.0 --push .
+docker buildx build --platform linux/amd64,linux/arm64 -t registry.digitalocean.com/luispsalvador-registry/teslo-shop-backend:2.1.0 --push .
